@@ -7,15 +7,10 @@ import img3 from '../img/3.jpg';
 function Carousel(){
     const window = {width:"640px", height:"360px", overflow:'hidden'}
     const images = [img1, img2, img3];
+    const onMouseover = (e) => {console.log(e.target.alt);}
+
     return (
-        // <div style={window}>
-        //     <div style={{display: "flex"}}>
-        //         <img className={style.img} alt="thumbnail_1" src={img1}></img>
-        //         <img className={style.img} alt="thumbnail_2" src={img2}></img>
-        //         <img className={style.img} alt="thumbnail_3" src={img3}></img>
-        //     </div>
-        // </div>
-        <div style={window}>
+        <div className='carousel' style={window}>
             <Slider
             onSlideComplete={(i) => {
                 console.log('finished dragging, current slide is', i)
@@ -29,7 +24,7 @@ function Carousel(){
             scaleOnDrag={true}
             >
             {images.map((image, idx) => (
-                <img src={image} key={idx} alt={idx} className={style.img} />
+                <img src={image} key={idx} alt={idx} className={style.img} onMouseOver={onMouseover} />
             ))}
             </Slider>
         </div>
