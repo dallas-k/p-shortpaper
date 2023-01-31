@@ -16,3 +16,9 @@
 4. 재생목록
 5. Rest API (배우, 영상)
 6. 굿즈 소개 및 쇼핑몰 이동
+
+## 기술 스택 (예정)
+1. React.js
+2. Typescript
+3. Node.js (Express)
+4. Firebase
