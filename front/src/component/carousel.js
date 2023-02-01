@@ -5,7 +5,7 @@ import img2 from '../img/2.jpg';
 import img3 from '../img/3.jpg';
 
 function Carousel(){
-    const window = {width:"640px", height:"360px", overflow:'hidden'}
+    const window = {width:"100%", height:"360px", overflow:'hidden'}
     const images = [img1, img2, img3];
     const onMouseover = (e) => {console.log(e.target.alt);}
 
