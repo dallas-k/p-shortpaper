@@ -1,0 +1,93 @@
+@media screen and (min-width:872px) {
+    header {
+        width:100%;
+        background-image : linear-gradient(-45deg, var(--color-main1) 30%, var(--color-main2) 70%);
+        height: 96px;
+    }
+    .header {
+        margin:auto;
+        max-width:1440px;
+        display: flex;
+        position:relative;
+    }
+    .header h1 {
+        width:96px;
+        position:relative;
+        left:10%;
+    }
+    .header h1 a {
+        display:inline-block;
+        width:96px;
+        height:96px;
+        background-image: url('../img/title3x.png');
+        background-position: 50% 50%;
+        background-size:contain;
+        background-repeat:no-repeat;
+        text-indent: -9999px;
+    }
+    
+    /* nav-container */
+    .nav-container {
+        width:calc(80% - 96px);
+        position:relative;
+        left:10%;
+    }
+    
+    /* SNS */
+    .header-sns {
+        position:absolute;
+        top:16px;
+        right:0;
+    }
+    .header-sns a {
+        display:inline-block;
+        height:24px;
+        background-size:contain;
+        background-repeat:no-repeat;
+        background-position: 0% 50%;
+        text-indent: 28px;
+        color:var(--color-white);
+        opacity:0.6;
+        transition:0.5s;
+    }
+    .header-sns a:hover {
+        opacity:1.0;
+        font-size:110%;
+    }
+    #header-sns-yt {
+        background-image: url('../img/icon_youtube.png');
+    }
+    #header-sns-in {
+        background-image: url('../img/icon_instagram.png');
+    }
+    #header-sns-fb {
+        background-image: url('../img/icon_facebook.png');
+    }
+    
+    /* Nav Bar */
+    
+    nav {
+        height:unset;
+        display: flex;
+        position:absolute;
+        right:0;
+        bottom:0;
+    }
+    
+    .header-nav {
+        color:var(--color-white);
+        opacity:0.5;
+        transition:0.2s;
+        padding:10px 30px;
+    }
+    
+    .header-nav:hover {
+        opacity:1.0;
+        border-bottom: 1px solid var(--color-white);
+    }
+    
+    .header-nav.active {
+        opacity:1.0;
+        border-bottom: 1px solid var(--color-white);
+    }
+}

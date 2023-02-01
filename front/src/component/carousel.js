@@ -1,16 +1,15 @@
 import Slider from 'react-touch-drag-slider';
-import style from '../css/carousel.module.css';
+import './css/carousel.css'
 import img1 from '../img/1.jpg';
 import img2 from '../img/2.jpg';
 import img3 from '../img/3.jpg';
 
 function Carousel(){
-    const window = {width:"100%", height:"360px", overflow:'hidden'}
     const images = [img1, img2, img3];
     const onMouseover = (e) => {console.log(e.target.alt);}
 
     return (
-        <div className='carousel' style={window}>
+        <div className='carousel-container'>
             <Slider
             onSlideComplete={(i) => {
                 console.log('finished dragging, current slide is', i)
@@ -24,7 +23,7 @@ function Carousel(){
             scaleOnDrag={true}
             >
             {images.map((image, idx) => (
-                <img src={image} key={idx} alt={idx} className={style.img} onMouseOver={onMouseover} />
+                <img src={image} key={idx} alt={idx} className='carousel-img' onMouseOver={onMouseover} />
             ))}
             </Slider>
         </div>
