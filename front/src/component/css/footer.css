@@ -41,3 +41,41 @@
         font-weight: bold;
     }
 }
+
+
+/* Dev */
+footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-image : linear-gradient(-45deg, var(--color-main1), var(--color-main2));
+    background-size:400% 400%;
+    height: 96px;
+}
+.footer {
+    margin:auto;
+    max-width:1440px;
+    position:relative;
+    display:flex;
+    left:10%;
+}
+.footer h2 {
+    width:96px;
+    height:96px;
+    position:relative;
+    background-image: url('../img/title3x.png');
+    background-position: 50% 40%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    text-indent: -9999px;
+    margin-right:36px;
+}
+.footer-desc {
+    padding-top:16px;
+}
+.footer-desc p {
+    color:var(--color-white);
+}
+.footer-desc p span {
+    font-weight: bold;
+}

@@ -1,12 +1,25 @@
-.actor-flex-box {
-    display: inline-flex;
+@media screen and (min-width:375px) {
+    .actor-flex-box {
+        display: inline-flex;
+    }
 }
 
-.actor-bg-img {
-    width:240px;
-    height:320px;
+.actor-wrap {
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
+/* .actor-bg-img {
+    flex:inline-flex;
+    width:240px;
+    height:360px;
+} */
 .actor-sm-img {
     width:120px;
     height:160px;
+    border:1px solid black;
+    margin-top:12px;
+    margin-left:4px;
 }
