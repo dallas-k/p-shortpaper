@@ -8,9 +8,9 @@ function Header() {
                 <h1><NavLink to='/'>짧은 대본</NavLink></h1>
                 <div className='nav-container'>
                     <div className='header-sns'>
-                        <a id='header-sns-yt' href='/'>유튜브</a>
-                        <a id='header-sns-in' href='/'>인스타그램</a>
-                        <a id='header-sns-fb' href='/'>페이스북</a>
+                        <a id='header-sns-yt' href='https://www.youtube.com/@short_paper' rel='noreferrer' target='_blank'>유튜브</a>
+                        <a id='header-sns-in' href='https://www.instagram.com/short_paper/' rel='noreferrer' target='_blank'>인스타그램</a>
+                        <a id='header-sns-fb' href='https://www.facebook.com/shortPaper' rel='noreferrer' target='_blank'>페이스북</a>
                     </div>
                     <nav>
                         <NavLink className='header-nav' to='/about'>짧은 대본</NavLink>

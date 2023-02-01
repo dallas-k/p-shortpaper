@@ -1,8 +1,8 @@
 import Slider from 'react-touch-drag-slider';
 import './css/carousel.css'
-import img1 from '../img/1.jpg';
-import img2 from '../img/2.jpg';
-import img3 from '../img/3.jpg';
+import img1 from './img/1.jpg';
+import img2 from './img/2.jpg';
+import img3 from './img/3.jpg';
 
 function Carousel(){
     const images = [img1, img2, img3];

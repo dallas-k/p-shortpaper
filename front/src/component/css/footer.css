@@ -1,13 +1,17 @@
+@keyframes gradient{
+    0% {bakcground-position:0% 50%}
+    50% {background-position:100% 50%}
+    100% {background-position:0% 50%}
+  }
+
 @media screen and (min-width:872px) {
     footer {
         position:fixed;
         bottom:0;
         width:100%;
-        /* background-image : linear-gradient(-45deg, var(--color-main1) 30%, var(--color-main2) 70%); */
+        background-image : linear-gradient(-45deg, var(--color-main1), var(--color-main2));
+        background-size:400% 400%;
         height: 96px;
-        animation-name:gradient;
-        animation-duration:2s;
-        animation-iteration-count:infinite;
     }
     .footer {
         margin:auto;
