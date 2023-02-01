@@ -1,0 +1,293 @@
+[
+    {
+        "idx" : "",
+        "char_name" : "가희",
+        "real_name" : "이가희",
+        "gender" : "female",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "시영",
+        "real_name" : "이시영",
+        "gender" : "female",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "진원",
+        "real_name" : "김진원",
+        "gender" : "female",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "소연",
+        "real_name" : "최지희",
+        "gender" : "female",
+        "birth" : "1991-02-05",
+        "sns" : {
+            "insta" : "https://www.instagram.com/jihuichoi/"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "진아",
+        "real_name" : "서수민",
+        "gender" : "female",
+        "birth" : "1993-12-11",
+        "sns" : {
+            "insta" : "https://www.instagram.com/zzing_e_rang/",
+            "youtube" : "https://www.youtube.com/channel/UCYGMSEkgVFtmSHXgOOmuXXw?app=desktop"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "혜지",
+        "real_name" : "배지혜",
+        "gender" : "female",
+        "birth" : "1995-10-31",
+        "sns" : {
+            "insta" : "https://www.instagram.com/jjye__v/",
+            "youtube" : "https://www.youtube.com/channel/UCsuB-RX94gljLFWZQYmIr0A"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "이나",
+        "real_name" : "윤상정",
+        "gender" : "female",
+        "birth" : "1998-01-17",
+        "sns" : {
+            "insta" : "https://www.instagram.com/s_j_jeong9/",
+            "blog" : "blog.naver.com/yunjenny117"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "영아",
+        "real_name" : "김아영",
+        "gender" : "female",
+        "birth" : "1994-10-31",
+        "sns" : {
+            "insta" : "https://www.instagram.com/aoung__/",
+            "youtube" : "https://www.youtube.com/@aoung__"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "예나",
+        "real_name" : "정예서",
+        "gender" : "female",
+        "birth" : "1996-05-09",
+        "sns" : {
+            "insta" : "https://www.instagram.com/jeongyeseo_/",
+            "youtube" : "https://www.youtube.com/channel/UCK8qW8xkVRiDN9unzj6vJzQ?app=desktop"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "진솔",
+        "real_name" : "진솔",
+        "gender" : "female",
+        "birth" : "1992-09-24",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "다희",
+        "real_name" : "이소이",
+        "gender" : "female",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "윤정",
+        "real_name" : "기은수",
+        "gender" : "female",
+        "birth" : "1999-05-27",
+        "sns" : {
+            "insta" : "https://www.instagram.com/dr_frong/",
+            "blog" : "m.blog.naver.com/mcm06316"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "동덕",
+        "real_name" : "조현정",
+        "gender" : "female",
+        "birth" : "2000",
+        "sns" : {
+            "insta" : "https://www.instagram.com/h.j_hp.l/"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "효진",
+        "real_name" : "백효원",
+        "gender" : "female",
+        "birth" : "1998-04-14",
+        "sns" : {
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "규남",
+        "real_name" : "김규남",
+        "gender" : "female",
+        "birth" : "1995-11-14",
+        "sns" : {
+            "insta" : "https://www.instagram.com/knamiiiiii/",
+            "youtube" : "https://www.youtube.com/@kyunamsaeng"
+        }
+    },{
+        "idx" : "",
+        "char_name" : "경성",
+        "real_name" : "이예인",
+        "gender" : "female",
+        "birth" : "2000-09-19",
+        "sns" : {
+            "insta" : "https://www.instagram.com/yeahniee/",
+            "youtube" : "https://www.youtube.com/channel/UCTx7C7GtEEe6kHwBI7jxL5w"
+        }
+    },{
+        "idx" : "",
+        "char_name" : "소옥",
+        "real_name" : "남소옥",
+        "gender" : "female",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "동하",
+        "real_name" : "전건웅",
+        "gender" : "male",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "병운",
+        "real_name" : "배재생",
+        "gender" : "male",
+        "birth" : "1994-07-12",
+        "sns" : {
+            "insta" : "https://www.instagram.com/b_jae94/",
+            "fanclub" : "https://cafe.naver.com/bjae94"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "제현",
+        "real_name" : "이충곤",
+        "gender" : "male",
+        "birth" : "1992-07-31",
+        "sns" : {
+            "insta" : "https://www.instagram.com/c___k___lee/"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "지은",
+        "real_name" : "전예림",
+        "gender" : "female",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "정국",
+        "real_name" : "남중규",
+        "gender" : "male",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "현재",
+        "real_name" : "김상희",
+        "gender" : "male",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "동국",
+        "real_name" : "김동우",
+        "gender" : "male",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "정환",
+        "real_name" : "한성희",
+        "gender" : "male",
+        "birth" : "1991",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "준팍",
+        "real_name" : "박준",
+        "gender" : "male",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "호석",
+        "real_name" : "오세현",
+        "gender" : "male",
+        "birth" : "1994-03-08",
+        "sns" : {
+            "insta" : "https://www.instagram.com/SHluv5/",
+            "youtube" : "https://www.youtube.com/c/Sehyeon"
+        }
+    },
+    {
+        "idx" : "",
+        "char_name" : "형석",
+        "real_name" : "윤현",
+        "gender" : "male",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "우환",
+        "real_name" : "윤동환",
+        "gender" : "male",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "진성",
+        "real_name" : "황지상",
+        "gender" : "male",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "동현",
+        "real_name" : "강동현",
+        "gender" : "male",
+        "birth" : "",
+        "sns" : ""
+    },
+    {
+        "idx" : "",
+        "char_name" : "대남",
+        "real_name" : "남대정",
+        "gender" : "male",
+        "birth" : "1995-10-31",
+        "sns" : ""
+    }
+]

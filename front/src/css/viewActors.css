@@ -1,0 +1,12 @@
+.actor-flex-box {
+    display: inline-flex;
+}
+
+.actor-bg-img {
+    width:240px;
+    height:320px;
+}
+.actor-sm-img {
+    width:120px;
+    height:160px;
+}
