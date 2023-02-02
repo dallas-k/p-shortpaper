@@ -1,23 +1,27 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import './css/viewActors.css';
 import Actors from './actors.json';
 
 function ViewActors(){
     const actorList = [];
-    const [current, setCurrent] = useState(null);
+    const [current, setCurrent] = useState('');
     const moveDescImg = (e) => {
-        setCurrent(prev => prev = e.target.id);
-        console.log(current);
-        // console.log(e.target.id);
-        // console.log(typeof e.target.id);
-        // setCurrent(prev => prev = prev + 1)
-        // console.log(current);
+        setCurrent(e.target.id);
         // document.querySelector(`#${current}>div`).style.cssText = `display:block; height:0px;`
     }
-
-    const outDescImg = (e) => {
+    const outDescImg = () => {
+        setCurrent(null);
         // document.querySelector(`#${current}>div`).style.cssText = `display:none; height:-60px;`
     }
+
+    useEffect(() => {
+        if(current !== null){
+            document.querySelector(`#${current}>div`).style.cssText = `display:block; height:0px;`
+        } else {
+            document.querySelector(`#${current}>div`).style.cssText = `display:none; height:-60px;`
+        }
+    })
+
     for(let i = 0; i < Actors.length; i++){
         const actor = Actors[i]
         actorList.push(
