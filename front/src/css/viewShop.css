@@ -1,0 +1,53 @@
+/* Setting */
+.area {
+    width:80%;
+    margin:auto;
+    display:flex;
+}
+.desc-area {
+    width:30%;
+    position:relative;
+}
+.shop-area{
+    width:70%;
+    position:relative;
+}
+
+/* Desc Area */
+
+.description {
+    background-color:var(--color-main1);
+    border-radius:10px;
+    position:relative;
+    top:1%;
+    color:var(--color-white);
+    text-align:center;
+}
+.description-para {
+    background-color:var(--color-main2);
+    padding:6px;
+    border-radius:10px;
+    width:80%;
+    margin:10px auto;
+    word-wrap:break-word;
+    font-size:var(--font-sm);
+}
+
+
+/* Shop Area */
+
+.product-container {
+    display:flex;
+    flex-wrap:wrap;
+}
+.product-item {
+    width:276px;
+    height:374px;
+    margin:20px 12px;
+}
+.product-item img {
+    width:276px;
+    height:276px;
+    border-radius: 25px;
+    border:1px solid var(--color-main2);
+}

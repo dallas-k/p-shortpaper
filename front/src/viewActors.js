@@ -1,21 +1,29 @@
-import './css/viewActors.css'
+import {useState} from 'react';
+import './css/viewActors.css';
 import Actors from './actors.json';
 
 function ViewActors(){
     const actorList = [];
-    const moveDesc = (e) => {
-        document.querySelector(`#${e.target.id}+div`).style.cssText = `display: block`;
+    const [current, setCurrent] = useState(null);
+    const moveDescImg = (e) => {
+        setCurrent(prev => prev = e.target.id);
+        console.log(current);
+        // console.log(e.target.id);
+        // console.log(typeof e.target.id);
+        // setCurrent(prev => prev = prev + 1)
+        // console.log(current);
+        // document.querySelector(`#${current}>div`).style.cssText = `display:block; height:0px;`
     }
-    const outDesc = (e) => {
-        document.querySelector(`#${e.target.id}+div`).style.cssText = `display: none`;
+
+    const outDescImg = (e) => {
+        // document.querySelector(`#${current}>div`).style.cssText = `display:none; height:-60px;`
     }
     for(let i = 0; i < Actors.length; i++){
         const actor = Actors[i]
         actorList.push(
-            <div key={i} className='actor-sm-img'>
-                <img id={actor.idx} className="actor-sm-img-thumb" src={actor.image} alt={actor.real_name} onMouseOver={moveDesc} onMouseOut={outDesc}></img>
+            <div key={i} className='actor-sm-img' id={actor.idx} onMouseOver={moveDescImg} onMouseOut={outDescImg} style={{backgroundImage : `url(${actor.image})`}}>
                 <div className='actor-desc'>
-                    <a>{actor.real_name}</a><br />
+                    <b>{actor.real_name}</b><br />
                     <span>{actor.char_name} 역</span>
                 </div>
             </div>

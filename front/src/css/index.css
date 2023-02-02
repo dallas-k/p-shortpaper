@@ -5,6 +5,15 @@
   --color-main2 : #6981D7;
   --color-white : #fafafa;
   --color-black : #000000;
+  --font-xs : 8px;
+  --font-sm : 10px;
+  --font-md : 12px;
+  --font-lg : 14px;
+  --font-xl : 16px;
+  --font-2x : 18px;
+  --font-3x : 20px;
+  --font-4x : 24px;
+  --font-5x : 30px;
 }
 
 body, h1, h2, h3, h4, li, ul, ol, div, p, nav, a, img {padding:0; margin:0; box-sizing: border-box;}
