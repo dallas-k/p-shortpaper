@@ -16,6 +16,7 @@
 /* Desc Area */
 
 .description {
+    width:80%;
     background-color:var(--color-main1);
     border-radius:10px;
     position:relative;

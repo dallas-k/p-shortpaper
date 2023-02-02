@@ -1,0 +1,327 @@
+{
+    "actors" : [
+        {
+            "idx" : "gahee",
+            "char_name" : "가희",
+            "real_name" : "이가희",
+            "image" : "https://namu.wiki/jump/mwAsOR27pRRz8zTAXNoXlmkL9D%2FwgHcRDc63kbH0hTKJ0MkBt%2FKz2Xax0mQv5UuvxxPHjvvMzRP%2FRTnvHjknlg%3D%3D",
+            "gender" : "female",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "siyoung",
+            "char_name" : "시영",
+            "real_name" : "이시영",
+            "image" : "https://w.namu.la/s/ac63c71b8aedb43404e3a5825e61b90abea716b113d04996d14fed5b73716c45f761db3995d3e9772d85d232fa4762bb45313fb22832092f4915679a81761907febf77bafd176cbb8ff613620ec405f08bfb8ec54d36a6a36b571e78fdfcefd3e67595719f56296c8001fac4e9664576",
+            "gender" : "female",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "jinwon",
+            "char_name" : "진원",
+            "real_name" : "김진원",
+            "image" : "https://w.namu.la/s/d6f765d20684cf120e9c33670815215271e3caac93f474ba5f48863d434f1619138aeeafec12770f1cdaa3d69863800b188b517523e9611f3ef9b63ff930c066d1d148d3f01994f8a502c141a98a0bd457716e550b41aad506f993fcc17b6f46",
+            "gender" : "female",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "soyeon",
+            "char_name" : "소연",
+            "real_name" : "최지희",
+            "image" : "https://w.namu.la/s/0d691cc9b187d25c86f02fa233f0f24607584ae8372808225462fd96619590b46b519eb666bb3839f996b89d2836c0df63281705564ccc6cd174a0371bfc3aa4748b118b5b193e778964157502bbfecc3d9fe82f0a33ecf1900474e91ace37b1",
+            "gender" : "female",
+            "birth" : "1991-02-05",
+            "sns" : {
+                "insta" : "https://www.instagram.com/jihuichoi/"
+            }
+        },
+        {
+            "idx" : "jina",
+            "char_name" : "진아",
+            "real_name" : "서수민",
+            "image" : "https://w.namu.la/s/12986609a139c2184371b06077d4544a700d66e5cbe7fb5a0b6cfa6674dee2864fb39d3db71474b3b3297792bd291a6b39a8633475e88a9844a50e702f63fcde9f60f66f1248699c6b216ff3453d40dfec55ba31af4787bdf1e6a9dc7c5d2bb89d810ea0ae01f88738d3f14ca8b82aff",
+            "gender" : "female",
+            "birth" : "1993-12-11",
+            "sns" : {
+                "insta" : "https://www.instagram.com/zzing_e_rang/",
+                "youtube" : "https://www.youtube.com/channel/UCYGMSEkgVFtmSHXgOOmuXXw?app=desktop"
+            }
+        },
+        {
+            "idx" : "hyeji",
+            "char_name" : "혜지",
+            "real_name" : "배지혜",
+            "image" : "https://w.namu.la/s/08c5d074f7834eca1be7031f91ac544e620a1a2252a174d371cee2337e07887b1807b209fc855df174660e9e9f18afe1ce2e0ade19cc8d900e5aeb46a2957f537c614525beb5e8979e7f668b11acca4a5718484998da24fb2e38b5f01526ee00a3c1b72fea47148f8357cd8e22566cf2",
+            "gender" : "female",
+            "birth" : "1995-10-31",
+            "sns" : {
+                "insta" : "https://www.instagram.com/jjye__v/",
+                "youtube" : "https://www.youtube.com/channel/UCsuB-RX94gljLFWZQYmIr0A"
+            }
+        },
+        {
+            "idx" : "ina",
+            "char_name" : "이나",
+            "real_name" : "윤상정",
+            "image" : "https://w.namu.la/s/544591583caa1d735a34dfdc9e36fdbd86b840cea4e77da480135531c4f9ced5601e0d9cbb9983fb5640937acbf0fbe0fe725a382d1a63942219fe145f5f9d809f8cc1d5ff6ff9caf7763163f6a0836d023586a29c7f1856d4abba0903a0415a820317bd634fc399ee57247d6a535a58",
+            "gender" : "female",
+            "birth" : "1998-01-17",
+            "sns" : {
+                "insta" : "https://www.instagram.com/s_j_jeong9/",
+                "blog" : "blog.naver.com/yunjenny117"
+            }
+        },
+        {
+            "idx" : "younga",
+            "char_name" : "영아",
+            "real_name" : "김아영",
+            "image" : "https://w.namu.la/s/476e89b9b152af244db279b504d845484179de0741a0940e30694601abf14c55273291f0ce1740d48fa9583963d6393caa787d45c7646923d6e144e2a74515e9958558b8e783111120fdb7b37187d1670bc1b80020a58a162f1a98a4340068c45504eb47b59cf6f775dcae99e56653a9",
+            "gender" : "female",
+            "birth" : "1994-10-31",
+            "sns" : {
+                "insta" : "https://www.instagram.com/aoung__/",
+                "youtube" : "https://www.youtube.com/@aoung__"
+            }
+        },
+        {
+            "idx" : "yena",
+            "char_name" : "예나",
+            "real_name" : "정예서",
+            "image" : "https://w.namu.la/s/31cd842bc03906c6de9df7d95b599440601eb86a9547ea121ca13aa406ed4faf616c3556c0aba4919854353c5070675f2965483c48c1be087b2c2e9a5e5de25b1518c73a12a61d6e32619a9a4806ba2cb9885f452827fe3c813f1b0321f835c0f08ae8f3d8414c9f483870cc08ac82b5",
+            "gender" : "female",
+            "birth" : "1996-05-09",
+            "sns" : {
+                "insta" : "https://www.instagram.com/jeongyeseo_/",
+                "youtube" : "https://www.youtube.com/channel/UCK8qW8xkVRiDN9unzj6vJzQ?app=desktop"
+            }
+        },
+        {
+            "idx" : "jinsol",
+            "char_name" : "진솔",
+            "real_name" : "진솔",
+            "image" : "https://w.namu.la/s/ade30a3e24031fac7fe44c33cd72cc236509b01943b061ea6b4916f93d19d0e1171b0f63a5325fb95d594f428afefcfe7fc6eddfa9ee9ae83837f7c1164f55891afc9bd245e1f83b8094842ee817a8c410bd9a624b9e1afe10f85520c1600e17",
+            "gender" : "female",
+            "birth" : "1992-09-24",
+            "sns" : ""
+        },
+        {
+            "idx" : "dahee",
+            "char_name" : "다희",
+            "real_name" : "이소이",
+            "image" : "https://w.namu.la/s/7323b3b9dca62dbcc021ca37b32091fc9c3533c463c8763f259db2f7ea0c49c347d7eb59c6d84cf6838b80b930737f58ebb5f758c1c6e707bcc893bcca5522cad354f90e929e56ef05281a5ac4778749a610a7c9e355c111d311bb67245bc270",
+            "gender" : "female",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "yoonjung",
+            "char_name" : "윤정",
+            "real_name" : "기은수",
+            "image" : "https://w.namu.la/s/2a60c5b602b4c0806f43460b71b7cf04eebe85ecfd7e5085c2ac771194f50e4306c5753bc7f8913cfee11f5acb442c48b7d4495d66ac237797b8dd36fa807f17c36079b9e004dfd8eac4baca8338952a708e99fa6d7d4ad690c54dd31f2fd68c",
+            "gender" : "female",
+            "birth" : "1999-05-27",
+            "sns" : {
+                "insta" : "https://www.instagram.com/dr_frong/",
+                "blog" : "m.blog.naver.com/mcm06316"
+            }
+        },
+        {
+            "idx" : "dongduk",
+            "char_name" : "동덕",
+            "real_name" : "조현정",
+            "image" : "https://w.namu.la/s/925f4fc608b8a00f0de77aef22ad6b4a60fdf300eb4a7c61e0779639e8ea90cf581032c8ba576b01167bb7a367bba9f5f6eeb98aaa0125444e3a657fff0d7f2edebfe6af0daa4360916c573d1ff79a12d34dbcc6d120145befc49c4a95af6681",
+            "gender" : "female",
+            "birth" : "2000",
+            "sns" : {
+                "insta" : "https://www.instagram.com/h.j_hp.l/"
+            }
+        },
+        {
+            "idx" : "hyojin",
+            "char_name" : "효진",
+            "real_name" : "백효원",
+            "image" : "https://w.namu.la/s/4d212eb8b822db5681ab46a8fe21a34a71af044246d8fa76c6600a0c2a40acbfbdc398c9e219dbffcb29cc49d266c943b94d1420c7970acd3b19e8f469e8451ab9508a471670c3ba7fe747c1ea80aa930b8a4645cf13c9740be0fc0fe331fbba",
+            "gender" : "female",
+            "birth" : "1998-04-14",
+            "sns" : {
+            }
+        },
+        {
+            "idx" : "yunam",
+            "char_name" : "유남",
+            "real_name" : "김규남",
+            "image" : "https://w.namu.la/s/2f1f798f7efa10a429e9164166e9b35d4721fa84cfed8bbca1a23b651b7abadda8aaa145bd01fb18f19e6aee920650fc5d698bbf5a432391f200a5a9020ca5d366d4812af9c76f5a1707f6341b0bdea4f3d0f4ccc334ea83265ad6959dae3ec5",
+            "gender" : "female",
+            "birth" : "1995-11-14",
+            "sns" : {
+                "insta" : "https://www.instagram.com/knamiiiiii/",
+                "youtube" : "https://www.youtube.com/@kyunamsaeng"
+            }
+        },{
+            "idx" : "gyeongsung",
+            "char_name" : "경성",
+            "real_name" : "이예인",
+            "image" : "https://w.namu.la/s/6d1c055cb7243fc4178c34461bed1698efa71e0e9ea63b359eb864d79c1213f0021d4e7a37c6ecb696515a9b98c0fc9accb4db93722f3c5fe1453ea1a25e02c716e691bcfe64bb0e48a79dcc7ead3dd2dee2ba4cfbb179ad1a72c379cd2fa33a",
+            "gender" : "female",
+            "birth" : "2000-09-19",
+            "sns" : {
+                "insta" : "https://www.instagram.com/yeahniee/",
+                "youtube" : "https://www.youtube.com/channel/UCTx7C7GtEEe6kHwBI7jxL5w"
+            }
+        },{
+            "idx" : "sook",
+            "char_name" : "소옥",
+            "real_name" : "남소옥",
+            "image" : "https://w.namu.la/s/5b27a13a8360d01a59507490f6cf6dded47a42796bee63fa4c14a03648291a279af32a209a8e1743dac4007a7bcb504d921440bcd72f22837027b618013e38e0b55a655812c48c7252e2976415051f2ef6dd0a23dd581dc2c061d3d16c35107f5165030325f52c5e55ff80ba3c4ce044",
+            "gender" : "female",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "dongha",
+            "char_name" : "동하",
+            "real_name" : "전건웅",
+            "image" : "https://w.namu.la/s/d99bac67f671a4a6f43e287dc2ad79a66e5fefcf2747c742c3ea5b254fe2afab91fb365003dccf28cfe67d1f711126152be2e77df37ae1f6347038aaa60b26667cab6135b976e206b1d97c848d0b1a3c239c106e610ce1b7ef91bb816ca0a518",
+            "gender" : "male",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "byeoungun",
+            "char_name" : "병운",
+            "real_name" : "배재생",
+            "image" : "https://w.namu.la/s/ec4308d50cb122bf76abf10284644e16d17429f3a0b10120c8fa1e876a7eb6191b208e355b81ee38ebb99274337affdbea1cee0f9a6134f7865188e725084ce32d659554c47c534c7e09c6ebc6388ebc07fb4daa67010d96a912a4cf5684a267c9cbecbc510cd1072596327f7c696148",
+            "gender" : "male",
+            "birth" : "1994-07-12",
+            "sns" : {
+                "insta" : "https://www.instagram.com/b_jae94/",
+                "fanclub" : "https://cafe.naver.com/bjae94"
+            }
+        },
+        {
+            "idx" : "jehyun",
+            "char_name" : "제현",
+            "real_name" : "이충곤",
+            "image" : "https://w.namu.la/s/0d92c9f94cf3e1b71f3df2ef93d7be51df0c8c6d401e148a25c3c0f2e3b96d51d1a8f1440f5dad6a3e6ddbebb357b2c5f7c9e30bb5171a1c2459c44da8c9f94d46514b4d5c546d8d7e84b5b43d9528f23788fcfefcbbb18188fe0d1525e4d1a2",
+            "gender" : "male",
+            "birth" : "1992-07-31",
+            "sns" : {
+                "insta" : "https://www.instagram.com/c___k___lee/"
+            }
+        },
+        {
+            "idx" : "jieun",
+            "char_name" : "지은",
+            "real_name" : "전예림",
+            "image" : "https://w.namu.la/s/5d3c1c2d5db446f0304caa8961635228b66fd0f7db9dc652ceaf7203817ebfc109c924847159b81937594d1427b9f9d9d9c2bbcd76c3d674a405265e206df1301436a6270e1a705c461656f4a40f232d3ba962fba7834ca13ec47321481d272b",
+            "gender" : "female",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "jungguk",
+            "char_name" : "정국",
+            "real_name" : "남중규",
+            "image" : "https://w.namu.la/s/878c32acb2f58b3ff7db9f530eb94623791fd6dc84c6192ed1cecc8e0ecc4cbd3923f1250af2e809483801ed6ed93136f483b3550be2579951d93687be69b5e14ad68b0857fe50893f9310dd81437a05eb70c9ba3b5caa7f1a1b870d1cb1b99750a6bb475fd3ce160fd9736e3f08696e",
+            "gender" : "male",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "hyunjae",
+            "char_name" : "현재",
+            "real_name" : "김상희",
+            "image" : "https://w.namu.la/s/70eaa90d2101b93ae939f3b721bfb2ac9aeac2f10ca78f9e086942a40f3d3935fb081a48203071e869e76028d80809b7809422e3ad355d1efb836601fb426fb98d71e6a85b8a1e46a060fcf69690878a1323c047df2c9a023b61d9ed41c67c391fe9a61ea240479c77690df543e796bb",
+            "gender" : "male",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "dongguk",
+            "char_name" : "동국",
+            "real_name" : "김동우",
+            "image" : "https://w.namu.la/s/145320017edc14e94a0ac6076a0464160333a7e5d1e81a7cc67f57cdf9d3fc04ab299a011665240d877ecc3f882d8dfba35e3dac6d36c38e6b9021178e6ac9dcea8192b9f25c94e9b53dc8b30beebd0acfbbdf7f57cd6d18b030f408a65bffee",
+            "gender" : "male",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "junghwan",
+            "char_name" : "정환",
+            "real_name" : "한성희",
+            "image" : "https://w.namu.la/s/50588d1ae25a87b3548fa3e1d011cade27f734abf8f63befa1ec8bcb48825fbfe00d51a2296440913f6fb3aeccfccbb6c29729324c68915e9c9ade31a6ef60023fb6f7139f6c9f9dbb0322adda474a7edd0e5a65634b9dfa6eb43d891b8cbddc",
+            "gender" : "male",
+            "birth" : "1991",
+            "sns" : ""
+        },
+        {
+            "idx" : "junpark",
+            "char_name" : "준팍",
+            "real_name" : "박준",
+            "image" : "https://w.namu.la/s/493449a28bce97ab659d07526eb93459effb3e0c82630680efe5ccdf6f9442e1ac8c05afef6898cd7172a2f6f9a6198d76275d9b950694ea31ead59377ba79d5fbe1421f890431d2e1ef897544b181cca827a40488e129a6304ec098fd0651a0",
+            "gender" : "male",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "hosuk",
+            "char_name" : "호석",
+            "real_name" : "오세현",
+            "image" : "https://w.namu.la/s/cf54990afab63c853276418f6dcb80b117d9583bea964b4a24d61f8f3a082bafd878add648e7bf6405d3309c24b8acf353e20a8bdecc8c27299c51a28dc2c50d6f11d273e8ef87671f23516f9d1e565ba5fb2874d1847cb7772debbc4cf95d20",
+            "gender" : "male",
+            "birth" : "1994-03-08",
+            "sns" : {
+                "insta" : "https://www.instagram.com/SHluv5/",
+                "youtube" : "https://www.youtube.com/c/Sehyeon"
+            }
+        },
+        {
+            "idx" : "hyungsuk",
+            "char_name" : "형석",
+            "real_name" : "윤현",
+            "image" : "https://w.namu.la/s/28de03d962b61f1ffbb69c194582c1f1afb279fd0d7c39a74e4459b906807eec967839a31ea256152eb014b2873dc17c299c7d3a11ccd11faffc0975ddbd7e904339256ecc34b1a325c09b9a707f7c5f73a97e7d62023b2850492ee1d6db551d",
+            "gender" : "male",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "wuhwan",
+            "char_name" : "우환",
+            "real_name" : "윤동환",
+            "image" : "https://w.namu.la/s/9cd3fa2f8268e2736c18b63b068357ba88b1424553448d4e7916ee7d14294b622fc9e3d6faa055671a05b545487ab5b1d15bf2660096f8d8d52c0adde3dc0cdf2b64e4573147b652d080a50df275e941249e0238b7bc98a6ab46d1399c85306b",
+            "gender" : "male",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "jinsung",
+            "char_name" : "진성",
+            "real_name" : "황지상",
+            "image" : "https://w.namu.la/s/27de6abde92d442588ab2297bab42388d61d657465288f6db1d59374dd71b8eb1cdb479eede9585f5673db3a82fb85d6b4ccff5bbd4f2693a2dcdecce5753153d6eb32a4595bbd17e15882586a3908efd45540d6e3cad1c453e9b4f0ff6bdcb9",
+            "gender" : "male",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "donghyun",
+            "char_name" : "동현",
+            "real_name" : "강동현",
+            "image" : "https://w.namu.la/s/d64099683d186d1f2773909dbb2fb14bb01ad5540da34b1e0da8044056733b20bc09103a40694dcc55d98eb0d2772a3d3949de50476d71806e7d7c3e4c3a2704bc569121b60e27a1a6a348de0ef42ae9b0cc13e3a35cd4d881b4a645110322e5",
+            "gender" : "male",
+            "birth" : "",
+            "sns" : ""
+        },
+        {
+            "idx" : "daenam",
+            "char_name" : "대남",
+            "real_name" : "남대정",
+            "image" : "https://w.namu.la/s/fb1d5277dabc6230b80bb932d2b1b7beb76e291a138e00f4e768ffd6ec0b64e16908a9a91c1363b80a9a78a8638bfe87d7b305b4829233fb86652b81a6041cdaccb3d526bb302ccfcec215f94c862666bcddb6e848a3921117149998b78f2f04",
+            "gender" : "male",
+            "birth" : "1995-10-31",
+            "sns" : ""
+        }
+    ]
+}
