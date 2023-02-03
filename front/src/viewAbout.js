@@ -25,13 +25,8 @@ function ViewAbout() {
     const abc = {};
     const obj = Object.assign(abc, data);
 
-    // useEffect( () => {
-    //     fetch(`${URL}/actors.json`)
-    //     .then(res => res.json())
-    //     .then(data => setData(data));
-    // }, [])
-
     console.log(obj);
+
     return (
         <div>
             <h2>Abpit</h2>
