@@ -1,5 +1,4 @@
-// import Actors from './actors.json';
-
+import Actors from './actors.json';
 
 function ViewPerson() {
     return (
