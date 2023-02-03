@@ -1,7 +1,6 @@
-// import {useState} from 'react';
-import {useState, useEffect} from 'react';
 import './css/viewActors.css';
 import Actors from './actors.json';
+import {Link} from 'react-router-dom'
 
 function ViewActors(){
     const actorList = [];
@@ -9,12 +8,14 @@ function ViewActors(){
     for(let i = 0; i < Actors.length; i++){
         const actor = Actors[i]
         actorList.push(
-            <div key={i} className='actor-sm-img' id={actor.idx} style={{backgroundImage : `url(${actor.image})`}}>
-                <div className='actor-desc'>
-                    <b>{actor.real_name}</b><br />
-                    <span>{actor.char_name} 역</span>
+            <Link key={actor.idx} to={`${actor.idx}`}>
+                <div className='actor-sm-img' id={actor.idx} style={{backgroundImage : `url(${actor.image})`}}>
+                    <div className='actor-desc'>
+                        <h4>{actor.real_name}</h4>
+                        <p>{actor.char_name} 역</p>
+                    </div>
                 </div>
-            </div>
+            </Link>
         )
     }
 

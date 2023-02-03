@@ -28,10 +28,10 @@ function ViewAbout() {
     console.log(obj);
 
     return (
-        <div>
+        <main>
             <h2>Abpit</h2>
-            <p></p>
-        </div>
+            <p>a</p>
+        </main>
     )
 }
 

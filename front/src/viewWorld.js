@@ -1,8 +1,8 @@
 function ViewWorld(){
     return (
-        <div>
+        <main>
             <h2>view World</h2>
-        </div>
+        </main>
     )
 }
 

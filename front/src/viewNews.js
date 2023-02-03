@@ -1,8 +1,8 @@
 function ViewNews(){
     return (
-        <div>
+        <main>
             <h2>View News</h2>
-        </div>
+        </main>
     )
 }
 

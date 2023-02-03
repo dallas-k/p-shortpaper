@@ -3,12 +3,12 @@ import Products from './products.json';
 
 function ViewShop(){
     const productList = [];
-    Products.forEach(product => {
+    Products.forEach((product,idx) => {
         productList.push(
-            <div className='product-item'>
-                <a href={product.url} target='_blank' rel="noreferrer"><img src={product.src} alt={product.name}></img></a>
+            <div key={idx} className='product-item'>
+                <a href={product.url} target='_blank' rel="noreferrer"><img src={'/'} alt={product.name}></img></a>
                 <h4>{product.name}</h4>
-                <p>￦{product.price}</p>
+                <p>￦{(product.price).toLocaleString()}</p>
             </div>
         )
     })
