@@ -1,17 +1,22 @@
 import './css/viewShop.css'
 import Products from './products.json';
+import { useEffect, useState } from 'react';
 
 function ViewShop(){
+    const [count, setCount] = useState(0);
     const productList = [];
     Products.forEach((product,idx) => {
         productList.push(
             <div key={idx} className='product-item'>
-                <a href={product.url} target='_blank' rel="noreferrer"><img src={'/'} alt={product.name}></img></a>
+                <a href={product.url} target='_blank' rel="noreferrer"><img src={`/img/${product.idx}.png`} alt={product.name}></img></a>
                 <h4>{product.name}</h4>
                 <p>￦{(product.price).toLocaleString()}</p>
             </div>
         )
     })
+    useEffect(() => {
+        setCount(Products.length);
+    },[Products])
 
     return (
         <main>
@@ -31,7 +36,7 @@ function ViewShop(){
                 </div>
                 <div className='shop-area'>
                     <h3>Products</h3>
-                    <p>총 11개의 상품이 있습니다.</p>
+                    <p>총 <b>{count}</b>개의 상품이 있습니다.</p>
                     <div className='product-container'>
                         {productList}
                     </div>
