@@ -24,48 +24,6 @@ function ViewActors(){
             <div className='actor-wrap'>
                 {actorList}
             </div>
-            {/* <div className='actor-wrap'>
-                <div id='box1' className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div className='actor-sm-img'></div>
-                <div id='box40' className='actor-sm-img'></div>
-            </div> */}
         </main>
     )
 }
