@@ -2,7 +2,7 @@
     .carousel-container {
         width: 80%;
         height: 360px;
-        overflow: hidden;
+        overflow-y: hidden;
         margin: auto;
         background-color: var(--color-black);
     }
@@ -27,7 +27,7 @@
 .carousel-container {
     width: 80%;
     height: 360px;
-    overflow: hidden;
+    overflow-y: hidden;
     margin: auto;
     background-color: var(--color-black);
 }
