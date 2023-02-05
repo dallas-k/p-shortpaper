@@ -1,0 +1,5 @@
+.minMain {
+    /* height:100%; */
+    /* height:calc(100% - 192px); */
+    height:calc(100vh - 192px);
+}

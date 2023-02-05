@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Actors from './actors.json';
 import LoadingPage from './component/loading';
-import './css/personErr.css'
+import './css/viewPerson.css';
+import style from './css/style.module.css';
 
 // 배우 id 틀렸을 때 / 배우 id 맞을 때 / 로딩 중
 // 뒤로 가기 버튼
@@ -18,17 +19,29 @@ function ErrPage(idx) {
     )
 }
 
-function personIn(idx) {
+function personIn(actor) {
     return (
-        <div>
+        <div className='person-container'>
             <div className='person-img-container'>
-                <h2>{idx}</h2>
+                <img src={actor.image} alt={actor.real_name}></img>
             </div>
             <div className='person-desc-container'>
-                <div><h3>이름</h3> <span>{idx}</span></div>
-                <div><h3>역할</h3> <span>영아</span></div>
-                <div><h3>생년월일</h3> <span>1994-02-26</span></div>
-                <div><h3>SNS</h3> <span>insta, facebook</span></div>
+                <div className='person-desc-description'>
+                    <h3>이름</h3> <span>{actor.real_name}</span>
+                </div>
+                <div className='person-desc-description'>
+                    <h3>역할</h3> <span>{actor.char_name}</span>
+                </div>
+                <div className='person-desc-description'>
+                    <h3>생년월일</h3> <span>{actor.birth}</span>
+                </div>
+                <div className='person-desc-description'>
+                    <h3>SNS</h3>
+                    {actor.sns.insta ? <span className='person-sns'><a id='person-sns-insta' href={actor.sns.insta} target='_blank' rel="noreferrer">Instagram</a></span> : null}
+                    {actor.sns.youtube ? <span className='person-sns'><a id='person-sns-youtube' href={actor.sns.youtube} target='_blank' rel="noreferrer">Youtube</a></span> : null}
+                    {actor.sns.blog ? <span className='person-sns'><a id='person-sns-blog' href={actor.sns.blog} target='_blank' rel="noreferrer">Blog</a></span> : null}
+                    {actor.sns.fanclub ? <span className='person-sns'><a id='person-sns-pages' href={actor.sns.fanclub} target='_blank' rel="noreferrer">Other Pages</a></span> : null}
+                </div>
             </div>
         </div>
     )
@@ -55,7 +68,7 @@ function ViewPerson() {
         const code = current['idx'];
         if(code === undefined) {setPage(() => LoadingPage())}
         else if(code === 'error') {setPage(() => ErrPage(idx))}
-        else if(code !== '') {setPage(() => personIn(idx))}
+        else if(code !== '') {setPage(() => personIn(current))}
     }
     
     useEffect( () => {
@@ -67,7 +80,7 @@ function ViewPerson() {
     }, [current])
 
     return (
-        <main>
+        <main className={style.minMain}>
             {page}
         </main>
     )
