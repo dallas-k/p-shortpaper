@@ -39,26 +39,28 @@ function ViewPerson() {
     const [current, setCurrent] = useState({});
     const [page, setPage] = useState(LoadingPage);
 
-    const chkActor = async () => {
-        await Actors.forEach((actor, index) => {
+    function chkActor () {
+        let data = {};
+        Actors.forEach( (actor, index) => {
             if(actor["idx"] === idx){
-                setCurrent(actor);
-            }
-        });  
-        if(Object.keys(current).length === 0) {setCurrent({idx : 'error', code : idx})}
-        console.log(current);
+                data = actor;
+        }})
+        if(Object.keys(data).length === 0) {
+            data = {idx : 'error'}
+        }
+        return data;
     }
 
     const pageConfirm = () => {
         const code = current['idx'];
-        console.log(code);
         if(code === undefined) {setPage(() => LoadingPage())}
         else if(code === 'error') {setPage(() => ErrPage(idx))}
-        else {setPage(() => {personIn(code)})}
+        else if(code !== '') {setPage(() => personIn(idx))}
     }
     
     useEffect( () => {
-        chkActor();
+        let data = chkActor();
+        setCurrent((prev) => prev = data);
     },[]);
     useEffect ( () => {
         pageConfirm();
