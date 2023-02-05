@@ -9,7 +9,8 @@ function ViewActors(){
         const actor = Actors[i]
         actorList.push(
             <Link key={actor.idx} to={`${actor.idx}`}>
-                <div className='actor-sm-img' id={actor.idx} style={{backgroundImage : `url(${actor.image})`}}>
+                <div className='actor-sm-img' id={actor.idx} style={{backgroundImage : `url('/img/${actor.idx}.png')`}}>
+                {/* <div className='actor-sm-img' id={actor.idx} style={{backgroundImage : `url(${actor.image})`}}> */}
                     <div className='actor-desc'>
                         <h4>{actor.real_name}</h4>
                         <p>{actor.char_name} 역</p>
