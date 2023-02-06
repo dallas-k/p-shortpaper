@@ -9,8 +9,10 @@
     clear:both;
 }
 .desc-area {
-    width:24%;
-    position:fixed;
+    /* width:24%; */
+    /* position:fixed; */
+    width:30%;
+    position:relative;
     float:left;
 }
 .shop-area{

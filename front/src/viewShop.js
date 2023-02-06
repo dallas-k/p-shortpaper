@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 
 function ViewShop(){
     const [count, setCount] = useState(0);
+    const [scroll, setScroll] = useState(0);
     const productList = [];
     Products.forEach((product,idx) => {
         productList.push(
@@ -14,15 +15,21 @@ function ViewShop(){
             </div>
         )
     })
+    const navScroll = () => {
+        document.addEventListener('scroll', () => {
+            setScroll(window.scrollY);
+        })
+    }
     useEffect(() => {
         setCount(Products.length);
-    },[Products])
+        navScroll();
+    },[Products, scroll])
 
     return (
         <main>
             <div className='area'>
                 <div className='desc-area'>
-                    <div className='description'>
+                    <div className='description' style={{'top':scroll}}>
                         <h2>짧은 대본 굿즈</h2>
                         <div className='description-para'>
                             <p>짧은 대본의 굿즈는 'MEMEZ' 사이트를 통해 판매하고 있습니다.</p>
