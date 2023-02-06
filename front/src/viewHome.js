@@ -1,8 +1,9 @@
+import style from './css/style.module.css';
 import Carousel from './component/carousel';
 
 function ViewHome(){
     return (
-        <main>
+        <main className={style.minMain} style={{'position' : 'relative'}}>
             <Carousel />
         </main>
     )

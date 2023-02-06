@@ -1,5 +1,11 @@
 @media screen and (min-width:872px) {
+    .carousel {
+        height:100%;
+        position:relative;
+    }
     .carousel-container {
+        position:relative;
+        top:10%;
         width: 80%;
         height: 360px;
         overflow-y: hidden;
@@ -24,7 +30,14 @@
     }
 }
 
+.carousel {
+    height:100%;
+    position:relative;
+}
+
 .carousel-container {
+    position:relative;
+    top:10%;
     width: 80%;
     height: 360px;
     overflow-y: hidden;

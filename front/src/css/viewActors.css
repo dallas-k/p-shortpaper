@@ -11,11 +11,10 @@
 
 .actor-wrap {
     width:90%;
-    margin:auto;
+    margin:40px auto;
     display:flex;
     flex-wrap:wrap;
     transition:0.5s;
-    margin-bottom:40px;
 }
 
 .actor-sm-img {

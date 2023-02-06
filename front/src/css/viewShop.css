@@ -9,8 +9,7 @@
     clear:both;
 }
 .desc-area {
-    /* width:24%; */
-    /* position:fixed; */
+    transition:0.5s;
     width:30%;
     position:relative;
     float:left;
@@ -36,6 +35,7 @@
 }
 .description h2 {
     margin-bottom:24px;
+    font-size:2vw
 }
 .description-para {
     background-color:var(--color-main2);
@@ -47,16 +47,21 @@
     font-size:var(--font-sm);
 }
 .description-link a {
-    padding:2px 0;
+    padding:4px 2px;
     margin:4px auto;
     display:inline-block;
-    font-size:var(--font-md);
+    font-size:1vw;
     background-color: var(--color-white);
     color: var(--color-main2);
     width:80%;
     border-radius: 5px;
+    white-space: nowrap;
 }
-
+.description-link a:hover {
+    transition:1s;
+    background-color: var(--color-black);
+    color:var(--color-white);
+}
 
 /* Shop Area */
 
