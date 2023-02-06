@@ -3,7 +3,7 @@ import Carousel from './component/carousel';
 
 function ViewHome(){
     return (
-        <main className={style.minMain} style={{'position' : 'relative'}}>
+        <main className={window.innerWidth < 1140 ? style.minMain : null} style={{'position' : 'relative'}}>
             <Carousel />
         </main>
     )

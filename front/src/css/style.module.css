@@ -1,3 +1,4 @@
 .minMain {
     height:calc(100vh - 192px);
+    padding-bottom:0;
 }
