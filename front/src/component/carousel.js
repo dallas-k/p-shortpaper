@@ -4,6 +4,7 @@ import './css/carousel.css'
 import img1 from './img/1.jpg';
 import img2 from './img/2.jpg';
 import img3 from './img/3.jpg';
+import Datas from './carousel.json';
 
 function Carousel(){
     const images = [img1, img2, img3];
@@ -13,31 +14,11 @@ function Carousel(){
         setWidth(window.innerWidth);
         setHeight(window.innerWidth*0.8*0.5625)
     })
-    // const conWidth = () => {
-    //     const width = document.querySelector('.carousel-container').offsetWidth;
-    //     setWidth(width);
-    // }    
-    // const widthChange = () => {
-    //     setHeight(width / 16 * 9);
-    // }
-    // // useEffect(() => {
-    // //     conWidth();
-    // // },[conWidth])
-    // // window.addEventListener('resize', conWidth);
-    // useEffect(() => {
-    //     widthChange();
-    //     console.log(height);
-    // },[width])
+    
     return (
         <div className='carousel'>
             <div className='carousel-container' style={{'height' : height}}>
                 <Slider
-                // onSlideComplete={(i) => {
-                //     console.log('finished dragging, current slide is', i)
-                // }}
-                // onSlideStart={(i) => {
-                //     console.log('started dragging on slide', i)
-                // }}
                 activeIndex={0}
                 threshHold={100}
                 transition={0.5}

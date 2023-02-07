@@ -16,7 +16,7 @@ function Header() {
                         <NavLink className='header-nav' to='/about'>짧은대본</NavLink>
                         <NavLink className='header-nav' to='/world'>세계관</NavLink>
                         <NavLink className='header-nav' to='/actors'>배우</NavLink>
-                        <NavLink className='header-nav' to='/news'>소식</NavLink>
+                        <NavLink className='header-nav' to='/contents'>회차정보</NavLink>
                         <NavLink className='header-nav' to='/shop'>굿즈</NavLink>
                     </nav>
                 </div>

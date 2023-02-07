@@ -1,5 +1,6 @@
 import './css/viewActors.css';
 import Actors from './actors.json';
+// import { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom'
 
 function ViewActors(){
@@ -19,7 +20,6 @@ function ViewActors(){
             </Link>
         )
     }
-
     return (
         <main>
             <div className='actor-wrap'>
