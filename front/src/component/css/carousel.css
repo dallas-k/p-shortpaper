@@ -33,16 +33,16 @@
 
 .carousel {
     height:100%;
+    width:80%;
+    margin:auto;
+    text-align:center;
     position:relative;
 }
 
 .carousel-container {
     position:relative;
-    top:5%;
-    width: 80%;
     max-height:520px;
     overflow-y: hidden;
-    margin: auto;
     background-color: var(--color-black);
 }
 
@@ -55,6 +55,9 @@
     margin: auto;
     opacity: 0.6;
     transition: 1s;
+}
+.carousel-img {
+    background:url('../img/redface.mp4');
 }
 
 .carousel-img:hover {

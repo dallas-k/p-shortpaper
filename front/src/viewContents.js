@@ -5,12 +5,12 @@ function ViewContents(){
         console.log(e.target.value);
     }
     return (
-        <main>
+        <>
             <select>
                 <option value='hyunjae'>현재</option>
             </select>
             <input onChange={searchQuery} />
-        </main>
+        </>
     )
 }
 

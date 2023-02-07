@@ -5,9 +5,9 @@ function ViewWorld(){
     // const datas = collection(store, 'products');
     // console.log(datas);
     return (
-        <main>
+        <>
             <h2>view World</h2>
-        </main>
+        </>
     )
 }
 

@@ -21,11 +21,11 @@ function ViewActors(){
         )
     }
     return (
-        <main>
+        <>
             <div className='actor-wrap'>
                 {actorList}
             </div>
-        </main>
+        </>
     )
 }
 

@@ -26,7 +26,7 @@ function ViewShop(){
     },[Products, scroll])
 
     return (
-        <main>
+        <>
             <div className='area'>
                 <div className='desc-area'>
                     <div className='description' style={{'top':scroll}}>
@@ -49,7 +49,7 @@ function ViewShop(){
                     </div>
                 </div>
             </div>
-        </main>
+        </>
     )
 }
 
