@@ -1,0 +1,25 @@
+.pageErr {
+    position:absolute;
+    width: 100%;
+    text-align:center;
+    top:30%;
+}
+.pageErr h2 {
+    margin:12px 0;
+}
+.pageErr p {
+    margin:12px 0;
+}
+.pageErr span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pageErr .btn {
+    display: inline-block;
+    padding:12px;
+    background-color: var(--color-black);
+    color:var(--color-white);
+    border-radius: 10px;
+    margin:12px 0;
+}

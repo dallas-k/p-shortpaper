@@ -1,8 +1,13 @@
+import Footer from './component/footer';
+
 function ViewAbout() {
     return (
         <>
-            <h2>Abpit</h2>
-            <p>a</p>
+            <main>
+                <h2>Abpit</h2>
+                <p>a</p>
+            </main>
+            <Footer />
         </>
     )
 }

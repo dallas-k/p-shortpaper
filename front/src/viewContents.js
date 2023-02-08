@@ -1,4 +1,5 @@
 import Contents from './contents.json';
+import Footer from './component/footer';
 
 function ViewContents(){
     const searchQuery = (e) => {
@@ -6,10 +7,13 @@ function ViewContents(){
     }
     return (
         <>
-            <select>
-                <option value='hyunjae'>현재</option>
-            </select>
-            <input onChange={searchQuery} />
+            <main>
+                <select>
+                    <option value='hyunjae'>현재</option>
+                </select>
+                <input onChange={searchQuery} />
+            </main>
+            <Footer />
         </>
     )
 }

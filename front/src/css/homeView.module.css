@@ -1,0 +1,83 @@
+#root {display:flex;}
+
+.home-wrap {width:100%; height:100%; position:relative;}
+
+/* Header */
+
+.home-header {padding-top:12px; height:96px; width:100%; position:absolute; z-index:1; top:0; color:white; height:auto;}
+
+/* Header-Nav */
+
+.home-header h1 {text-align:center;}
+/* .home-header h1 a {
+    width:48px;
+    height:48px;
+    display:inline-block;
+    text-indent: -9999px;
+    background:url('../component/img/thumbnail_shortpaper.jpg') no-repeat;
+    background-size:contain;
+} */
+.home-header nav {display:flex; font-size:16px; left:0;}
+.home-header nav a {display:inline-block; padding:12px;}
+.home-header nav a:hover {color:var(--color-main1); font-size:18px; transition:1s;}
+
+/* Header-SNS */
+
+.home-header-sns {
+    position:absolute;
+    top:16px;
+    right:0;
+    z-index:2;
+}
+.home-header-sns a {
+    display:inline-block;
+    height:24px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: 0% 50%;
+    text-indent: 28px;
+    color:var(--color-white);
+    opacity:0.6;
+    transition:0.5s;
+}
+.home-header-sns a:hover {
+    opacity:1.0;
+    font-size:110%;
+}
+
+.home-main {width:100%; height:100%; background-color:#000;}
+
+.home-content-container {
+    width:100%;
+    height:100%;
+    display:none;
+}
+#home-container1 {display:block;}
+.home-content-container img {display:block; width:100%; height:100%; object-fit: contain; transition:1s;}
+.home-content-container video {width:100%; height:100%; display:none; transition:1s; cursor:pointer;}
+.home-radio-container {
+    width:72px;
+    position:absolute;
+    z-index:1;
+    top:calc(50% - 40px);
+    right:0;
+}
+.home-radio-container .active {
+    background-color: #fff;
+    transition:1s;
+}
+.home-radio-btn {
+    margin:12px auto;
+    padding:2px;
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    background-color:#888;
+    cursor:pointer;
+}
+.home-radio-btn:hover {
+    background-color:#fff;
+    transition:1s;
+}
+
+.home-footer {width:100%; position:absolute; z-index:1; bottom:0; color:white;}

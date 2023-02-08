@@ -1,10 +1,12 @@
 import {Link} from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+
 import Actors from './actors.json';
 import LoadingPage from './component/loading';
 import './css/viewPerson.css';
 import style from './css/style.module.css';
+import Footer from './component/footer';
 
 // 배우 id 틀렸을 때 / 배우 id 맞을 때 / 로딩 중
 // 뒤로 가기 버튼
@@ -80,9 +82,12 @@ function ViewPerson() {
     }, [current])
 
     return (
-        <main className={style.minMain}>
-            {page}
-        </main>
+        <>
+            <main className={style.minMain}>
+                {page}
+            </main>
+            <Footer />
+        </>
     )
 }
 

@@ -1,7 +1,8 @@
 import './css/viewActors.css';
 import Actors from './actors.json';
 // import { useState, useEffect } from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Footer from './component/footer';
 
 function ViewActors(){
     const actorList = [];
@@ -22,9 +23,12 @@ function ViewActors(){
     }
     return (
         <>
-            <div className='actor-wrap'>
-                {actorList}
-            </div>
+            <main>
+                <div className='actor-wrap'>
+                    {actorList}
+                </div>
+            </main>
+            <Footer />
         </>
     )
 }
