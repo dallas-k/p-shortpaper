@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/p-shortpaper-build/static/css/main.bc58e19f.css",
+    "main.js": "/p-shortpaper-build/static/js/main.2a0abbe8.js",
+    "static/media/title3x.png": "/p-shortpaper-build/static/media/title3x.43336e9d3ee42da10155.png",
+    "index.html": "/p-shortpaper-build/index.html",
+    "main.bc58e19f.css.map": "/p-shortpaper-build/static/css/main.bc58e19f.css.map",
+    "main.2a0abbe8.js.map": "/p-shortpaper-build/static/js/main.2a0abbe8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc58e19f.css",
+    "static/js/main.2a0abbe8.js"
+  ]
+}
