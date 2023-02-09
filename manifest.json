@@ -11,6 +11,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "homepage": "https://dallas-k.github.io/p-shortpaper-build"
+  "background_color": "#ffffff"
 }
