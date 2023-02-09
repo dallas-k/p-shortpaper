@@ -1,5 +1,3 @@
-import Footer from './component/footer';
-
 function ViewAbout() {
     return (
         <>
@@ -7,7 +5,6 @@ function ViewAbout() {
                 <h2>Abpit</h2>
                 <p>a</p>
             </main>
-            <Footer />
         </>
     )
 }

@@ -6,7 +6,6 @@ import Actors from './actors.json';
 import LoadingPage from './component/loading';
 import './css/viewPerson.css';
 import style from './css/style.module.css';
-import Footer from './component/footer';
 
 // 배우 id 틀렸을 때 / 배우 id 맞을 때 / 로딩 중
 // 뒤로 가기 버튼
@@ -22,10 +21,11 @@ function ErrPage(idx) {
 }
 
 function personIn(actor) {
+    console.log(actor);
     return (
         <div className='person-container'>
             <div className='person-img-container'>
-                <img src={actor.image} alt={actor.real_name}></img>
+                <img src={`asset/actors/${actor.idx}.png`} alt={actor.real_name}></img>
             </div>
             <div className='person-desc-container'>
                 <div className='person-desc-description'>
@@ -86,7 +86,6 @@ function ViewPerson() {
             <main className={style.minMain}>
                 {page}
             </main>
-            <Footer />
         </>
     )
 }

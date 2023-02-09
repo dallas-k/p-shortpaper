@@ -1,5 +1,6 @@
 import {NavLink, Outlet} from 'react-router-dom';
 import './css/header.css';
+import Footer from './footer';
 
 function Header() {
     return (
@@ -24,6 +25,7 @@ function Header() {
                 </div>
             </header>
             <Outlet />
+            <Footer />
         </>
     )
 }

@@ -1,6 +1,4 @@
 import {Routes, Route} from 'react-router-dom';
-import { useState } from 'react';
-import { useLocation, useParams } from 'react-router-dom';
 
 import Header from './component/header';
 import ViewHome from './viewHome';
@@ -13,7 +11,6 @@ import ViewWorld from './viewWorld';
 import NotFound from './NotFound';
 
 function App() {
-  // console.log(useLocation());
   return (
     <>
       <Routes>

@@ -12,10 +12,10 @@ function ViewHome(){
         const datas = [];
         Datas.map((data, idx) => { datas.push(
             <div className="home-content-container" key={idx} id={"home-container"+(idx+1)}>
-                <img src={"img/"+data.image} alt="유튜브 썸네일"
+                <img src={"asset/home/"+data.image} alt="유튜브 썸네일"
                 onMouseEnter={() => {onHover(idx+1)}}
                 ></img>
-                <video src={"video/"+data.video} loop onMouseEnter={() => {onHover(idx+1)}} onClick={() => playNpause(idx+1)}></video>
+                <video src={"asset/home/"+data.video} loop onMouseEnter={() => {onHover(idx+1)}} onClick={() => playNpause(idx+1)}></video>
             </div>)
         })
         setDataList(datas);

@@ -1,30 +1,40 @@
 import './css/viewShop.css'
 import Products from './products.json';
+import Loading from './component/loading';
 import { useEffect, useState } from 'react';
-import Footer from './component/footer';
 
 function ViewShop(){
     const [count, setCount] = useState(0);
     const [scroll, setScroll] = useState(0);
-    const productList = [];
-    Products.forEach((product,idx) => {
+    const [load, setLoad] = useState(0);
+    const [shopData, setShopData] = useState([]);
+    const getDatas = async () => {
+        const productList = [];
+        Products.forEach((product,idx) => {
         productList.push(
             <div key={idx} className='product-item'>
-                <a href={product.url} target='_blank' rel="noreferrer"><img src={`/img/${product.idx}.png`} alt={product.name}></img></a>
+                <a href={product.url} target='_blank' rel="noreferrer"><img src={`asset/products/${product.idx}.png`} alt={product.name}></img></a>
                 <h4>{product.name}</h4>
                 <p>￦{(product.price).toLocaleString()}</p>
             </div>
         )
-    })
+        })
+        setLoad(1);
+        return setShopData( (prev) => [...prev,productList]);
+    }
     const navScroll = () => {
         document.addEventListener('scroll', () => {
             setScroll(window.scrollY);
         })
     }
+    useEffect( () => {
+        getDatas();
+        console.log(load);
+    },[])
     useEffect(() => {
         setCount(Products.length);
         navScroll();
-    },[Products, scroll])
+    },[Products, scroll, load])
 
     return (
         <>
@@ -47,12 +57,12 @@ function ViewShop(){
                         <h3>Products</h3>
                         <p>총 <b>{count}</b>개의 상품이 있습니다.</p>
                         <div className='product-container'>
-                            {productList}
+                            {load === 0 ? <Loading /> : null}
+                            {shopData}
                         </div>
                     </div>
                 </div>
             </main>
-            <Footer />
         </>
     )
 }

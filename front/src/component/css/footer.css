@@ -21,7 +21,7 @@
         width:96px;
         height:96px;
         position:relative;
-        background-image: url('../img/title3x.png');
+        background-image: url('/src/img/title3x.png');
         background-position: 50% 40%;
         background-size:contain;
         background-repeat:no-repeat;
@@ -57,7 +57,7 @@ footer {
     width:96px;
     height:96px;
     position:relative;
-    background-image: url('../img/title3x.png');
+    background-image: url('/src/img/title3x.png');
     background-position: 50% 40%;
     background-size:contain;
     background-repeat:no-repeat;

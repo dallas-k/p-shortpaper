@@ -7,17 +7,10 @@
 /* Header-Nav */
 
 .home-header h1 {text-align:center;}
-/* .home-header h1 a {
-    width:48px;
-    height:48px;
-    display:inline-block;
-    text-indent: -9999px;
-    background:url('../component/img/thumbnail_shortpaper.jpg') no-repeat;
-    background-size:contain;
-} */
+
 .home-header .home-header-nav {display:flex; font-size:16px; left:0;}
 .home-header .home-header-nav a {display:inline-block; padding:12px;}
-.home-header .home-header-nav a:hover {bakcground-color:var(--color-main1); font-size:18px; transition:1s; font-weight: bold;}
+.home-header .home-header-nav a:hover {font-size:18px; transition:1s; font-weight: bold;}
 
 /* Header-SNS */
 

@@ -16,11 +16,9 @@
     align-items: center;
 }
 .person-img-container img {
-    display:inline-block;
     width:250px;
     height:250px;
     object-fit: contain;
-    display: inline-block;
     margin:auto;
     z-index:1;
 }
@@ -45,22 +43,22 @@
     margin-right:4px;
 }
 #person-sns-insta {
-    background:url("../component/img/icon_instagram.png") no-repeat;
+    background:url('/src/img/icon_instagram.png') no-repeat;
     background-position: 50% 50%;
     background-size:contain;
 }
 #person-sns-youtube {
-    background:url("../component/img/icon_youtube.png") no-repeat;
+    background:url('/src/img/icon_youtube.png') no-repeat;
     background-position: 50% 50%;
     background-size:contain;
 }
 #person-sns-blog {
-    background:url("../component/img/icon_blog.png") no-repeat;
+    background:url('/src/img/icon_blog.png') no-repeat;
     background-position: 50% 50%;
     background-size:contain;
 }
 #person-sns-pages {
-    background:url("../component/img/icon_web.png") no-repeat;
+    background:url('/src/img/icon_web.png') no-repeat;
     background-position: 50% 50%;
     background-size:contain;
 }
